@@ -8,14 +8,14 @@ This tutorial was based on running Minecraft Forge in a `Debian wheezy` installa
 - Download and install java-package
 - edit `/usr/share/java-package/oracle-j2re.sh`
   * add 
-
+```
       "jre-8u"[0-9][0-9]"-linux-i586.tar.gz") # SUPPORTED
           j2se_version=1.8.0+update${archive_name:6:2}${revision}
           j2se_expected_min_size=94 #Mb
           j2se_priority=316
           found=true
           ;;
-
+```
 - make the Java package
 - type `make-jpkg jre-8u77-linux-i586.tar.gz` 
     - *confirmed working as of 3/26/2016 on Wheezy*
