@@ -22,6 +22,6 @@ This tutorial is based on a `Debian wheezy` installation, but it should work wit
 - download forge-1.8.9-11.15.1.1722-installer.jar
 - run the installer
 `java -jar forge-1.8.9-11.15.1.1722-installer.jar --installServer`
-- edit eula.txt set `eula=true`
-- `java -Xmx2G -Xms2G -jar forge-1.8.9-11.15.1.1722-universal.jar`
-- Login to server
+- edit `eula.txt` change line `eula=true`
+- type `java -Xmx2G -Xms2G -jar forge-1.8.9-11.15.1.1722-universal.jar` to run the game
+- Login to server and enjoy
