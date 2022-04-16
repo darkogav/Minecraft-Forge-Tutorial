@@ -19,7 +19,7 @@ This tutorial was based on running Minecraft Forge in a `Debian wheezy` installa
 
 - make the Java package
 - type `make-jpkg jre-8u77-linux-i586.tar.gz` 
-    - confirmed working as on 3/26/2016 on Wheezy
+    - *confirmed working as of 3/26/2016 on Wheezy*
 - download forge-1.8.9-11.15.1.1722-installer.jar
 - run the installer
 `java -jar forge-1.8.9-11.15.1.1722-installer.jar --installServer`
