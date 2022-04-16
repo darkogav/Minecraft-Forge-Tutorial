@@ -1,8 +1,8 @@
-# Tutorials
+# Minecraft Forge Tutorials
 
 ## How To Install Setup Minecraft Forge on Linux
 
-This tutorial is based on a `Debian wheezy` installation, but it should work with any other Linux system. I did this for my son and his friends. Posting for posterity.
+This tutorial was based on running Minecraft Forge in a `Debian wheezy` installation, but it should work with any other Linux system. I did this for my son and his friends. I haven't tested it in years. Posting for posterity.
 
 - Download the latest version of Oracle Java JRE. Download the tar.gz file version.
 - Download and install java-package
@@ -18,10 +18,14 @@ This tutorial is based on a `Debian wheezy` installation, but it should work wit
 `
 
 - make the Java package
-- `make-jpkg jre-8u77-linux-i586.tar.gz` #confirmed working as on 3/26/2016 on Wheezy#
+- type `make-jpkg jre-8u77-linux-i586.tar.gz` 
+-- confirmed working as on 3/26/2016 on Wheezy
 - download forge-1.8.9-11.15.1.1722-installer.jar
 - run the installer
 `java -jar forge-1.8.9-11.15.1.1722-installer.jar --installServer`
 - edit `eula.txt` change line `eula=true`
 - type `java -Xmx2G -Xms2G -jar forge-1.8.9-11.15.1.1722-universal.jar` to run the game
 - Login to server and enjoy
+
+## Resources
+- [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
